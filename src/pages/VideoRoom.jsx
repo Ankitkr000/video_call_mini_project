@@ -29,7 +29,8 @@ const VideoRoom = () => {
               {
                 name: 'copy link',
               
-                  url: `http://localhost:5173/room/${roomId}`,
+                //   url: `http://localhost:5173/room/${roomId}`,
+                url: `${window.location.origin}/room/${roomId}`,
               },
             ],
             scenario: {
